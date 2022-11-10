@@ -1,0 +1,317 @@
+.navbar-nav{
+    margin-left: auto!important;
+}
+.navbar-brand img{
+    height: 40px;
+}
+
+.signup__page__wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .signup__page{
+    width: 65%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+    padding: 100px;
+
+        & .signup__container{
+            width: 100%;
+            height: 100%;
+            // background-color:aqua;
+            display: flex;
+            flex-wrap: wrap;
+            & .signup__from{
+                //position: relative;
+                flex: 1;
+                // background-color: rgb(76, 119, 119);
+                padding: 30px 0;
+                padding-right: 100px;
+                & .registration__AllInput{
+                    position: relative;
+
+                    & .registration__AllInput__icons{
+                        position: absolute;
+                        left: 10px;
+                        bottom: 8px;
+                        & i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                & input{
+                    width: 80%;
+                    margin-top: 50px;
+                    height: 40px;
+                    padding-left: 50px;
+                    border: none;
+                    outline: none;
+                    border-bottom: 2px solid rgb(56, 56, 56);
+                }
+                & .singup__button{
+                    margin-top: 40px;
+                    & button{
+                        color: #fff!important;
+                    }
+                    
+                }
+            }
+            
+            & .signup__image{ 
+                text-align: center;
+                flex: 1;
+                // background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                & img{
+                width: 100%;
+                margin-bottom: 50px;
+                }
+                & .signup__image__link{
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+            & .login__image{
+                text-align: center;
+                flex: 1;
+                // background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                & img{
+                    width: 60%;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+
+    }
+}
+
+
+.contactUs__wrapper{
+    width: 100%;
+    height: 100vh;
+    & .contactUS__page{
+        & .uperDiv{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            & .sectionTwo{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            & .allsection{
+                width: 100%;
+                margin-top: 40px;
+                & .allsection__allcontent{
+                    width: 100%;
+                    display: flex;
+                    padding: 20px;
+                    align-items: center;
+                    background-color: #fff;
+                    box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, .4);
+                    border-radius: 5px;
+
+                    & .allsection__icons{
+                        color: #1abc9c;
+                        font-size: 40px;
+                        margin-right: 30px;
+                    }
+
+                    & .allsection__content{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+
+        & .lowerDiv{
+            margin: 0 auto;
+            width: 1100px;
+            padding: 50px;
+            background-color: #fff;
+            box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, .4);
+            border-radius: 10px;
+            & .lowerDiv__wrapper{
+                
+                & .lowerDiv__Form{
+                    & .slideOne{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 50px;
+                        & input{
+                            width: 300px;
+                            height: 40px;
+                            padding-left: 10px;
+                            outline: none;
+                        }
+                    }
+                }
+                & .slideTwo{
+                    margin-bottom: 50px;
+                    & textarea{
+                        width: 100%;
+                        height: 300px;
+                        padding: 10px;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Home__wrapper{
+    width: 100%;
+    height: 93vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p{
+        color: #1abc9c;
+        font-size: 25px;
+    }
+
+    & h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    background: linear-gradient(90deg, #ebe5fa 49%, #fff 50%);
+
+}
+
+.about__fullwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 93vh;
+
+    & .About__Control{
+        width: 60%;
+        height: 80%;
+        background-color: #fff;
+        box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, .4);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+        & .About__divOne{
+            flex: .5;
+            // background-color: aqua;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            
+            & .About__divOne__content{
+               
+                & .divOne__img{
+                    & img{
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+        & .About__divTwo{
+            flex: 2;
+            width: 100%;
+            height: 100%;
+            margin-left: 100px;
+
+            & .About__divTwo__content{
+                height: 80%;
+                & .About__uperSection{
+                    display: flex;
+                    justify-content: space-between;
+                    & .About__uperSection__content{
+                        & h6{
+                            color: #2a8dcf;
+                        }
+                        & span p{
+                            color: #7f8c8d;
+                        }
+                    }
+                }
+                & .About__LowerSection{
+                    height: 100%;
+                    & .About__LowerSection__tabsection{
+                        display: flex;
+                        border-bottom: 1px solid #95a5a6;
+                        & .Tab__One{
+                            margin-right: 30px;
+                        }
+                        & .Tab__One,.Tab__Two{
+                            cursor: pointer;
+                        }
+                        & .tab_active{
+                            border-bottom: 3px solid #3498db;
+                        }
+                    }
+
+                    & .About__LowerSection__tooglesection{
+                        height: 100%;
+                        
+                        & .Toogle__One{
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            display: none;
+
+                            & p{
+                                margin: 35px 0;
+                            }
+                            & .Toogle__One__ContentTwo{
+                                color: #3498db;
+                            }
+                        }
+                        & .Toogle__Two{
+                            display: none;
+                            margin-top: 50px;
+                        }
+                        & .toogle_active{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ErrorPage__wrapper{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    & .ErrorPage__Content{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & img{
+            width: 30%;
+        }
+    }
+    
+}
